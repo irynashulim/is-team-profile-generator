@@ -3,10 +3,10 @@ const exp = require("constants");
 const Employee = require("../lib/Employee")
 
 test('creates an Employee object', () => {
-    const employee = new Employee("Bob");
+    const employee = new Employee("Bob",19,"email@email.com");
     
     expect(employee.name).toBe("Bob");
-    expect(employee.id).toBe(this.id);
-    expect(employee.email).toBe(this.email);
-    expect(employee.role).toBe("employee");
+    expect(employee.id).toEqual(expect.any(Number));
+    expect(employee.email).toEqual(expect.any(String));
+    expect(employee.getRole()).toBe("Employee");
 })
