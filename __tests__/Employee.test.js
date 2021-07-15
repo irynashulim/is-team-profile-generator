@@ -1,4 +1,3 @@
-const { test, expect } = require("@jest/globals");
 const exp = require("constants");
 const Employee = require("../lib/Employee")
 
