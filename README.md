@@ -2,7 +2,7 @@
 ##  Description
  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
  ---
- Team orofile generator app
+ Team profile generator app
 
 **Built with:**
     JavaScript, CSS, Node
